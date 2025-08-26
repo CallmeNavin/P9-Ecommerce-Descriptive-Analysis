@@ -4,7 +4,10 @@
 
 **B. Dataset Information**
 
-- Source
+- Source: Dirty E-Commerce Data [80,000+ Products] from Kaggle
+https://www.kaggle.com/datasets/oleksiimartusiuk/e-commerce-data-shein
+
+- Notes: The original combined dataset has 14k+ rows and was too large for GitHub. For storage efficiency, it will be compressed.
 
 - Period
 
