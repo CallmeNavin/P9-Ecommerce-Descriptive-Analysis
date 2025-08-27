@@ -14,15 +14,24 @@ https://www.kaggle.com/datasets/oleksiimartusiuk/e-commerce-data-shein
 **C. Methodoly**
 
 _**I. EDA:**_
-- Combine 21 files raw data thành 1 file master raw data
-- Xử lý sơ ở file master raw data
-  + Xóa các cột không có giá trị, số lượng giá trị < 5% tổng số lượng giá trị
-  + Xóa các cột không quan trọng (link, url): goods-title-link--jump href, blackfridaybelts-content
-- Check %blank, %error, %zero value, outlier, dtypes ở Python
-- Xử lý sau khi có kết quả check
-  + Xóa các cột %blank quá nhiều (>90%): goods-title-link--jump
-  + Các cột có %blank ở vùng xám (70 - 90%): check ý nghĩa business.
-  + Fill "Unknow" các blank ở color count do cột này quan trọng
+- Combine raw data: Merged 21 individual raw files into a single master dataset.
+- Initial preprocessing on master dataset:
+  + Dropped columns with less than 5% valid values.
+  + Removed irrelevant columns such as goods-title-link--jump href and blackfridaybelts-content (link/URL fields).
+- Data quality scanning in Python: Checked for %blank, %error, %zero values, outliers, and data types.
+- Data cleaning based on scan results:
+  + rank-title: Kept only the value “Best Sellers”.
+  + price: Removed $ symbols and commas, converted to numeric type.
+  + discount: Removed %, converted to numeric type.
+  + selling_proposition: Kept only the value “sold recently”.
+  + color-count: Filled missing values with “Unknown”.
+
+_**Data Cleaning Rationale**_
+- Column reduction: Columns with less than 5% valid data were dropped to avoid noise and reduce dimensionality. Irrelevant link/URL fields were also removed since they do not provide analytical value.
+- Handling categorical noise: For fields such as rank-title and selling_proposition, only meaningful labels (“Best Sellers”, “sold recently”) were preserved. Other inconsistent or low-information values were discarded to improve clarity.
+- Numeric standardization: Price values often contained $ and thousand separators (commas). These were stripped and converted into numeric format for accurate aggregation and statistical analysis.
+- Discount normalization: Discount percentages were converted into numeric format, enabling quantitative comparison across records. Extreme values above 100% were treated as invalid and removed.
+- Missing data handling: Columns with significant missingness were either dropped (if uninformative) or imputed with a placeholder (“Unknown”) in categorical cases such as color-count. This ensures dataset integrity while avoiding bias in numerical analysis.
 
 **D. Key Findings and Actionable Plans**
 
