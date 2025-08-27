@@ -2,6 +2,9 @@
 
 **A. Project Overview**
 
+- This project analyzes merchandising & marketing strategy. We want to explore more about how Shein định vị sản phẩm, sắp xếp, và push cái gì ra trước mắt khách.
+- 
+
 **B. Dataset Information**
 
 - Source: Dirty E-Commerce Data [80,000+ Products] from Kaggle
