@@ -1,9 +1,10 @@
 # P9-Ecommerce-Descriptive-Analysis
 
+**Version 1_Descriptive Analysis**
+
 **A. Project Overview**
 
-- This project analyzes merchandising & marketing strategy. We want to explore more about how Shein định vị sản phẩm, sắp xếp, và push cái gì ra trước mắt khách.
-- 
+- This project analyzes pricing, product & marketing strategy. We want to explore more about how Shein hét giá, định vị và marketing sản phẩm như thế nào
 
 **B. Dataset Information**
 
@@ -11,8 +12,6 @@
 https://www.kaggle.com/datasets/oleksiimartusiuk/e-commerce-data-shein
 
 - Notes: The original combined dataset has 14k+ rows and was too large for GitHub. For storage efficiency, it will be compressed.
-
-- Period
 
 **C. Methodoly**
 
@@ -35,6 +34,9 @@ _**Data Cleaning Rationale**_
 - Numeric standardization: Price values often contained $ and thousand separators (commas). These were stripped and converted into numeric format for accurate aggregation and statistical analysis.
 - Discount normalization: Discount percentages were converted into numeric format, enabling quantitative comparison across records. Extreme values above 100% were treated as invalid and removed.
 - Missing data handling: Columns with significant missingness were either dropped (if uninformative) or imputed with a placeholder (“Unknown”) in categorical cases such as color-count. This ensures dataset integrity while avoiding bias in numerical analysis.
+
+**_Data Visualization, Insights & Actionable Plans_**
+- By Power BI
 
 **D. Key Findings and Actionable Plans**
 
@@ -68,8 +70,6 @@ _**Actionable Plans**_
 - Home & Kitchen, Beauty & Health: Expand SKU variety → currently highly efficient (many Best Sellers with fewer SKUs/colors).
 - Curve: Beyond discount & “sold recently” tactic, Shein should improve quality & user reviews to win trust in this niche.
 - Bags & Luggage: Increase SKU breadth. Current low SKU count restricts Best Seller output despite marketing push.
-
-**E. Appendix**
 
 **F. About Me**
 
