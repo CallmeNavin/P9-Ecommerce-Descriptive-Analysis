@@ -4,11 +4,14 @@
 
 **A. Project Overview**
 
-- This project analyzes pricing, product & marketing strategy. We want to explore more about how Shein hét giá, định vị và marketing sản phẩm như thế nào
+- This project analyzes Shein’s pricing, merchandising, and marketing tactics to uncover how the brand positions its products and drives sales performance in the fast-fashion e-commerce market.
+
+![Dashboard Visualization](Version%201_Descriptive%20Analyst/Overview.png)
 
 **B. Dataset Information**
 
 - Source: Dirty E-Commerce Data [80,000+ Products] from Kaggle
+
 https://www.kaggle.com/datasets/oleksiimartusiuk/e-commerce-data-shein
 
 - Notes: The original combined dataset has 14k+ rows and was too large for GitHub. For storage efficiency, it will be compressed.
@@ -36,7 +39,8 @@ _**Data Cleaning Rationale**_
 - Missing data handling: Columns with significant missingness were either dropped (if uninformative) or imputed with a placeholder (“Unknown”) in categorical cases such as color-count. This ensures dataset integrity while avoiding bias in numerical analysis.
 
 **_Data Visualization, Insights & Actionable Plans_**
-- By Power BI
+- Conducted in **Power BI**.  
+- Focused on 3 lenses: Pricing & Discount, Merchandising Mix, Marketing Tactics.
 
 **D. Key Findings and Actionable Plans**
 
@@ -46,16 +50,15 @@ _**I. Key Findings**_
 - Top 3 categories by discount: Curve (-14.8%), Womens Clothing (-12.6%), Swimwear (-8.3%) → these categories are the most discount-dependent to drive sales.
 - Home Textile, Appliances, Tools & Home Improvement show high average prices only because of extreme outliers. Without outliers, they do not appear in the top 5. After removing outliers, Shoes (12.5), Curve (12.3), Mens Clothing (11.8) are the categories with the highest average prices. Curve (plus-size niche) is positioned higher, but still heavily discounted → Shein seems to accept deep discounting to acquire market share.
 - Overall average price: 7 USD (without outliers) vs 23 USD (with outliers) → outliers triple the mean.
-→ Insight: Shein’s true positioning is low-price fast fashion, while a few very high-price products are likely serving niche markets.
+→ Insight: Shein’s true positioning is low-price fast fashion, while a few very high-price products are likely serving niche markets (Curve)
 
-**2. Merchadising Mix**
+**2. Merchandising Performance**
 
 - SKU breadth: Top 3 = Shoes, Sports & Outdoors, Underwear & Sleepwear.
 - Color variety: Top 3 = Shoes, Womens Clothing, Bags & Luggage.
 - Best Sellers: Top 3 = Home & Kitchen, Sports & Outdoors, Beauty & Health.
-→ Shoes is clearly being pushed as a flagship category (wide SKU + color options).
 → Beauty & Health ranks only 6th in SKU count but delivers the 3rd most Best Sellers → highly efficient.
-→ Shoes, despite heavy investment in SKU & color, failed to rank among Best Sellers → likely due to higher price perception and/or weaker quality perception.
+→ Shoes is clearly being pushed as a flagship category (wide SKU + color options). However, it failed to rank among Best Sellers → likely due to higher price perception and/or weaker quality perception.
 → Home & Kitchen, with simple products (often single-color), achieved outstanding success.
 
 **3. Marketing Tactics**
