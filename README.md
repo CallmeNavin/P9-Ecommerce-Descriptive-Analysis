@@ -40,7 +40,34 @@ _**Data Cleaning Rationale**_
 
 _**I. Key Findings**_
 
+**1. Pricing & Discount**
+- Top 3 categories by discount: Curve (-14.8%), Womens Clothing (-12.6%), Swimwear (-8.3%) → these categories are the most discount-dependent to drive sales.
+- Home Textile, Appliances, Tools & Home Improvement show high average prices only because of extreme outliers. Without outliers, they do not appear in the top 5. After removing outliers, Shoes (12.5), Curve (12.3), Mens Clothing (11.8) are the categories with the highest average prices. Curve (plus-size niche) is positioned higher, but still heavily discounted → Shein seems to accept deep discounting to acquire market share.
+- Overall average price: 7 USD (without outliers) vs 23 USD (with outliers) → outliers triple the mean.
+→ Insight: Shein’s true positioning is low-price fast fashion, while a few very high-price products are likely serving niche markets.
+
+**2. Merchadising Mix**
+
+- SKU breadth: Top 3 = Shoes, Sports & Outdoors, Underwear & Sleepwear.
+- Color variety: Top 3 = Shoes, Womens Clothing, Bags & Luggage.
+- Best Sellers: Top 3 = Home & Kitchen, Sports & Outdoors, Beauty & Health.
+→ Shoes is clearly being pushed as a flagship category (wide SKU + color options).
+→ Beauty & Health ranks only 6th in SKU count but delivers the 3rd most Best Sellers → highly efficient.
+→ Shoes, despite heavy investment in SKU & color, failed to rank among Best Sellers → likely due to higher price perception and/or weaker quality perception.
+→ Home & Kitchen, with simple products (often single-color), achieved outstanding success.
+
+**3. Marketing Tactics**
+
+- Categories with the highest % of “Sold Recently” tag per SKU: Bags & Luggage, Curve, Kids.
+→ Shein is actively pushing Curve (plus-size market entry) and Bags & Luggage via social proof tactic. However, effectiveness is mixed: Curve shows low Best Seller outcome despite high discount & push; Bags & Luggage suffers from low SKU count (bottom quartile) → limiting sales output.
+
 _**Actionable Plans**_
+
+- Shoes: Reevaluate strategy. Adjust pricing, strengthen product quality, and improve marketing messaging to avoid “SKU graveyards”.
+- Sports & Outdoors: Well-balanced (high SKU + high Best Sellers) → continue investment.
+- Home & Kitchen, Beauty & Health: Expand SKU variety → currently highly efficient (many Best Sellers with fewer SKUs/colors).
+- Curve: Beyond discount & “sold recently” tactic, Shein should improve quality & user reviews to win trust in this niche.
+- Bags & Luggage: Increase SKU breadth. Current low SKU count restricts Best Seller output despite marketing push.
 
 **E. Appendix**
 
