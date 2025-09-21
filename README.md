@@ -6,7 +6,7 @@
 
 - This project analyzes Shein’s pricing, merchandising, and marketing tactics to uncover how the brand positions its products and drives sales performance in the fast-fashion e-commerce market.
 
-![Dashboard Visualization](https://github.com/CallmeNavin/P9-Ecommerce-Descriptive-Analysis/blob/main/Version%201_Descriptive%20Analyst/Visualization/Main%20Dashboard.jpg)
+![Dashboard Visualization](https://github.com/CallmeNavin/P9-Ecommerce-Descriptive-Analysis/blob/main/Version%201_Descriptive%20Analyst/Visualization/Main%20Dashboard.png)
 _Explore more insights in the full Power BI dashboard_
 
 **B. Dataset Information**
